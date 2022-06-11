@@ -1,0 +1,91 @@
+main {
+    
+    .newin {
+    h2 {
+        color: #6A5495;
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+        @media screen and (max-width: 426px){
+            font-size: small;
+        }
+    }
+   
+    .contenedorDeProductos {
+        display: grid;
+        justify-content: space-evenly;
+        grid-template-columns: 200px 200px 200px 200px 200px;
+        grid-gap: 6px;
+
+        @media screen and (max-width: 1050px) {
+            display: grid;
+            justify-content: space-evenly;
+            grid-template-columns: 200px 200px 200px 200px;
+            grid-gap: 6px;
+        }
+
+        @media screen and (max-width: 830px) {
+            display: grid;
+            justify-content: space-evenly;
+            grid-template-columns: 200px 200px 200px;
+            grid-gap: 6px;
+        }
+
+        @media screen and (max-width: 680px) {
+            display: grid;
+            justify-content: space-evenly;
+            grid-template-columns: 200px 200px ;
+            grid-gap: 6px;
+        }
+
+        @media screen and (max-width: 426px) {
+            
+
+                display: block;
+                flex-direction: column;
+             }
+        
+    
+        .productos {
+            color: purple;
+
+            h3 {
+                font-size: large;
+                @media screen and (max-width: 1050px){
+                    font-size: small;
+                }
+
+                @media screen and (max-width: 830px)  {
+                    font-size: small;
+                }
+                @media screen and (max-width: 680px) {
+                    font-size: small;
+                }
+        
+                
+            }
+       
+            img {
+                width: 160px;
+            }
+       
+       &:hover {
+        box-shadow: 0 8px 16px 0 purple;
+    
+    }
+       
+       
+        }
+
+        
+    
+    }
+
+
+}
+
+
+
+
+}
+

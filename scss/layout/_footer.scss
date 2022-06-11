@@ -1,0 +1,47 @@
+footer {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-image: linear-gradient(purple, blueviolet, violet);
+    color: white;
+
+
+    .contenido-footer {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        text-align: center;
+    
+    
+    
+    
+    }
+
+    .contenedor-redes{
+       
+        .redes-sociales {
+            display: flex;
+            justify-content: space-evenly;
+            list-style: none;
+            @media screen and (max-width: 680px) {
+                padding-left: 0%;
+                display: flex;
+                font-size: x-small;
+            }
+
+            @media screen and (max-width: 426px) {
+                padding-left: 0%;
+                display: flex;
+                font-size: x-small;
+        
+        
+        
+            }
+        }
+       
+        a{
+            text-decoration: none;
+            color: white;
+        }
+    }
+}
