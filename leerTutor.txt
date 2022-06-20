@@ -1,0 +1,9 @@
+
+se aplico SEO
+
+- se utilizo etiquetas semánticas
+- se coloco a las imágenes los nombres = a la descripción del producto
+- se agregaron keywords y descriptions
+- Se modifico titulo
+- Se coloco descripcion de los productos en h3 de las cards
+- se linkeo las redes sociales
